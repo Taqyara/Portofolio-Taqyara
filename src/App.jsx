@@ -82,7 +82,7 @@ export default function App() {
       id: 1,
       title: 'Lokavent',
       category: 'Web App',
-      image: '/public/Lokavent.jpeg',
+      image: '/Lokavent.jpeg',
       description: 'Aplikasi dashboard manajemen analitik toko online modern dengan visualisasi data interaktif.',
       tech: ['React', 'Tailwind CSS', 'Chart.js', 'Node.js'],
       demoUrl: '#',
@@ -243,7 +243,7 @@ export default function App() {
                   style={{ width: '320px', height: '320px', filter: 'blur(40px)', zIndex: 0 }}
                 ></div>
                 <img 
-                  src="/public/pasfoto.jpg" 
+                  src="/pasfoto.jpg" 
                   alt="Profile Avatar" 
                   className="img-fluid rounded-circle border border-4 border-white shadow-lg position-relative"
                   style={{ width: '300px', height: '300px', objectFit: 'cover', zIndex: 1 }}
